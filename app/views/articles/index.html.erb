@@ -11,5 +11,9 @@
   
   </p>
 </ul>
+<% if logged_in? %>
 <%= link_to "Create a new article", new_article_path, class: "new_article", id: "new_article" %>
+<% end %>
+
+
 
